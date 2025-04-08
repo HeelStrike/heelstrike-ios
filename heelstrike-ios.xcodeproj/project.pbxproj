@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B180F9582DA59A52008E3A36 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B180F9572DA59A4D008E3A36 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B180F9252DA598C2008E3A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B180F90C2DA598C1008E3A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B180F9132DA598C1008E3A36;
+			remoteInfo = "heelstrike-ios";
+		};
+		B180F92F2DA598C2008E3A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B180F90C2DA598C1008E3A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B180F9132DA598C1008E3A36;
+			remoteInfo = "heelstrike-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B180F9142DA598C1008E3A36 /* heelstrike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "heelstrike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B180F9242DA598C2008E3A36 /* heelstrike-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "heelstrike-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B180F92E2DA598C2008E3A36 /* heelstrike-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "heelstrike-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B180F9572DA59A4D008E3A36 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B180F9542DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Tests/heelstrike-iosTests/heelstrike_iosTests.swift",
+				"Tests/heelstrike-iosUITests/heelstrike_iosUITests.swift",
+				"Tests/heelstrike-iosUITests/heelstrike_iosUITestsLaunchTests.swift",
+			);
+			target = B180F9132DA598C1008E3A36 /* heelstrike-ios */;
+		};
+		B180F9552DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-iosTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Tests/heelstrike-iosTests/heelstrike_iosTests.swift",
+			);
+			target = B180F9232DA598C2008E3A36 /* heelstrike-iosTests */;
+		};
+		B180F9562DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-iosUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Tests/heelstrike-iosUITests/heelstrike_iosUITests.swift",
+				"Tests/heelstrike-iosUITests/heelstrike_iosUITestsLaunchTests.swift",
+			);
+			target = B180F92D2DA598C2008E3A36 /* heelstrike-iosUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B180F9162DA598C1008E3A36 /* heelstrike-ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B180F9542DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-ios" target */,
+				B180F9552DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-iosTests" target */,
+				B180F9562DA5999D008E3A36 /* Exceptions for "heelstrike-ios" folder in "heelstrike-iosUITests" target */,
+			);
+			path = "heelstrike-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B180F9112DA598C1008E3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F9212DA598C2008E3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F92B2DA598C2008E3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B180F90B2DA598C1008E3A36 = {
+			isa = PBXGroup;
+			children = (
+				B180F9572DA59A4D008E3A36 /* .gitignore */,
+				B180F9162DA598C1008E3A36 /* heelstrike-ios */,
+				B180F9152DA598C1008E3A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B180F9152DA598C1008E3A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B180F9142DA598C1008E3A36 /* heelstrike-ios.app */,
+				B180F9242DA598C2008E3A36 /* heelstrike-iosTests.xctest */,
+				B180F92E2DA598C2008E3A36 /* heelstrike-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B180F9132DA598C1008E3A36 /* heelstrike-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B180F9382DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-ios" */;
+			buildPhases = (
+				B180F9102DA598C1008E3A36 /* Sources */,
+				B180F9112DA598C1008E3A36 /* Frameworks */,
+				B180F9122DA598C1008E3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B180F9162DA598C1008E3A36 /* heelstrike-ios */,
+			);
+			name = "heelstrike-ios";
+			packageProductDependencies = (
+			);
+			productName = "heelstrike-ios";
+			productReference = B180F9142DA598C1008E3A36 /* heelstrike-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B180F9232DA598C2008E3A36 /* heelstrike-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B180F93B2DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-iosTests" */;
+			buildPhases = (
+				B180F9202DA598C2008E3A36 /* Sources */,
+				B180F9212DA598C2008E3A36 /* Frameworks */,
+				B180F9222DA598C2008E3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B180F9262DA598C2008E3A36 /* PBXTargetDependency */,
+			);
+			name = "heelstrike-iosTests";
+			packageProductDependencies = (
+			);
+			productName = "heelstrike-iosTests";
+			productReference = B180F9242DA598C2008E3A36 /* heelstrike-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B180F92D2DA598C2008E3A36 /* heelstrike-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B180F93E2DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-iosUITests" */;
+			buildPhases = (
+				B180F92A2DA598C2008E3A36 /* Sources */,
+				B180F92B2DA598C2008E3A36 /* Frameworks */,
+				B180F92C2DA598C2008E3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B180F9302DA598C2008E3A36 /* PBXTargetDependency */,
+			);
+			name = "heelstrike-iosUITests";
+			packageProductDependencies = (
+			);
+			productName = "heelstrike-iosUITests";
+			productReference = B180F92E2DA598C2008E3A36 /* heelstrike-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B180F90C2DA598C1008E3A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B180F9132DA598C1008E3A36 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B180F9232DA598C2008E3A36 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B180F9132DA598C1008E3A36;
+					};
+					B180F92D2DA598C2008E3A36 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B180F9132DA598C1008E3A36;
+					};
+				};
+			};
+			buildConfigurationList = B180F90F2DA598C1008E3A36 /* Build configuration list for PBXProject "heelstrike-ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B180F90B2DA598C1008E3A36;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B180F9152DA598C1008E3A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B180F9132DA598C1008E3A36 /* heelstrike-ios */,
+				B180F9232DA598C2008E3A36 /* heelstrike-iosTests */,
+				B180F92D2DA598C2008E3A36 /* heelstrike-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B180F9122DA598C1008E3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B180F9582DA59A52008E3A36 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F9222DA598C2008E3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F92C2DA598C2008E3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B180F9102DA598C1008E3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F9202DA598C2008E3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180F92A2DA598C2008E3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B180F9262DA598C2008E3A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B180F9132DA598C1008E3A36 /* heelstrike-ios */;
+			targetProxy = B180F9252DA598C2008E3A36 /* PBXContainerItemProxy */;
+		};
+		B180F9302DA598C2008E3A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B180F9132DA598C1008E3A36 /* heelstrike-ios */;
+			targetProxy = B180F92F2DA598C2008E3A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B180F9362DA598C2008E3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B180F9372DA598C2008E3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B180F9392DA598C2008E3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"heelstrike-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B180F93A2DA598C2008E3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"heelstrike-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B180F93C2DA598C2008E3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heelstrike-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heelstrike-ios";
+			};
+			name = Debug;
+		};
+		B180F93D2DA598C2008E3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heelstrike-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heelstrike-ios";
+			};
+			name = Release;
+		};
+		B180F93F2DA598C2008E3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "heelstrike-ios";
+			};
+			name = Debug;
+		};
+		B180F9402DA598C2008E3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "heelstrike.heelstrike-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "heelstrike-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B180F90F2DA598C1008E3A36 /* Build configuration list for PBXProject "heelstrike-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B180F9362DA598C2008E3A36 /* Debug */,
+				B180F9372DA598C2008E3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B180F9382DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B180F9392DA598C2008E3A36 /* Debug */,
+				B180F93A2DA598C2008E3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B180F93B2DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B180F93C2DA598C2008E3A36 /* Debug */,
+				B180F93D2DA598C2008E3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B180F93E2DA598C2008E3A36 /* Build configuration list for PBXNativeTarget "heelstrike-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B180F93F2DA598C2008E3A36 /* Debug */,
+				B180F9402DA598C2008E3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B180F90C2DA598C1008E3A36 /* Project object */;
+}
